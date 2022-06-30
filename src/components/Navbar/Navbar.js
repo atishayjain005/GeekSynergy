@@ -2,9 +2,13 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <nav class="navbar navbar-dark bg-dark">
-      <div class="container-fluid">
-        <span class="navbar-brand mb-0 h1">Navbar</span>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div className="container-fluid">
+        <a className="navbar-brand" href="/">
+          <h2 className="m-0" onClick={() => localStorage.clear()}>
+            GeekSynergy
+          </h2>
+        </a>
       </div>
     </nav>
   );
