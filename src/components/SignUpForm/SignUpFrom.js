@@ -30,7 +30,7 @@ export default function SignUpFrom() {
   };
 
   const pushData = () => {
-    if (state === initialState) {
+    if (state ===initialState ) {
       alert("Please fill all the fields");
     } else {
       const data = JSON.stringify(state);
