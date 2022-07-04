@@ -15,10 +15,11 @@ export default function DashboardContent() {
             category: "movies",
             language: "kannada",
             genre: "all",
+            mode: "cors",
             sort: "voting",
           }),
           headers: {
-            "Content-Type": "application/json",
+            "Content-Type": "application/xml",
           },
         });
         const json = await response.json();
