@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       <Navbar />
       <Routes>
-        <Route path="/" element={<SignUpPage />} />
-        <Route path="login" element={<LoginPage />} />
+        {/* <Route path="/" element={<SignUpPage />} /> */}
+        {/* <Route path="login" element={<LoginPage />} /> */}
         <Route path="dashboard" element={<Dashboard />} />
       </Routes>
     </div>
